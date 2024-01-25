@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://127.0.0.1:27017/UserManagement',{
+mongoose.connect('mongodb+srv://kavyareddy:kavyareddy@cluster0.msabz.mongodb.net/ecommerce',{
   useNewUrlParser: true,
  useUnifiedTopology: true,
 })
